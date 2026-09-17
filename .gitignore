@@ -1,0 +1,36 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+*.spec
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 密钥与本机配置（绝不入库）=====
+.env
+
+# ===== 运行时数据：个人待办 / 日程 / 统计 =====
+# 注意必须写 data/* 而不是 data/：
+# 父目录一旦被整体忽略，后面的 ! 放行规则就失效了
+data/*
+!data/每周进度反馈模板.xlsx
+data.bak/
+data.backup_*/
+
+# ===== 打包中间产物 =====
+_tcl_data/
+_tk_data/
+tcl8/
+tkinter/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

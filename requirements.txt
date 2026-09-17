@@ -1,0 +1,2 @@
+# 除 openpyxl 外全部使用 Python 标准库（tkinter / sqlite3 / urllib / ctypes）
+openpyxl>=3.1.0
