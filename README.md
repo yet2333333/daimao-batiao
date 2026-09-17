@@ -29,6 +29,13 @@
 
 ---
 
+## 环境要求
+
+- Windows 10 / 11
+- **Python 3.10+**，请使用 [python.org 官方安装包](https://www.python.org/downloads/)，安装时勾选 `Add python.exe to PATH`
+  - ⚠️ 不建议使用 Microsoft Store 版 Python
+- 界面基于 tkinter，官方安装包默认自带，无需单独安装
+
 ## 快速开始
 
 ```bash
